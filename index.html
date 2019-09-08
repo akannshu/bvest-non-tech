@@ -11,63 +11,319 @@ Capture Bvest
 
 Performance by 3 societies (music dance and theatre)-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-        <!--Import materialize.css-->
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-        
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body style="background-color: black;">
-        <!--Header-->
 
-        <nav id="navbar">
-
-            <div id="brand">
-                <!-- <span class='icon'></span> -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-                <div>
-                    BVEST
-                </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    
+    <!--Import materialize.css-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black;">
+    <!--Header-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar" style="background: black">
+            <a class="navbar-brand" href="index.html"><span id="BrandIcon"></span><span id="brand">BVEST</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="dropdown">     <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Home"><span class="links">Home</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events"><span class="links">Events</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#venue-section"><span class="links">Venue</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="links" id="nav-resume-text">Team</a>
+                    </li>
+                </ul>
             </div>
-    
-    
-            <ul id="nav-links">
-    
-                <li class="nav-link">
-                    <a href="#">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#application">
-                        FAQ
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#get-started">
-                        Contact
-                    </a>
-                </li>
-                <li class="nav-link">
-                    <a href="#contact-us">
-                        Team
-                    </a>
-                </li>
-    
-            </ul>
-    
+            </div>
         </nav>
 
-        <!-- <div class="headbar">
+
+    <section id=cover>
+
+        <h1>
+            BVEST
+        </h1>
+        <h2>
+            Non-Technical
+        </h2>
+        <p>
+            Look Down for some amazing Non-Tech Events!
+        </p>
+
+        <!-- <span id="down-arrow">
+                &#8595;
+            </span> -->
+
+        <a href="#events"><i id="down-arrow" class="fas fa-arrow-circle-down fa-5x"></i></a>
+
+
+    </section>
+
+
+    <section id="events">
+
+        <h1>
+            Non-Technical Events
+        </h1>
+
+
+        <div class="content-container">
+
+            <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/laser-room.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Laser Room<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Laser Room<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/ar-room.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">AR Room<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">AR Room<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/milky.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Guest-o-Vida<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Guest-o-Vida<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/milky.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Milange<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Milange<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/touchmenot.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Touch Me Not<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Touch Me Not<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/salesman.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Salesman Of The Year<i
+                            class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Salesman Of The Year<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/ipr-quiz.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">IPR quiz<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">IPR quiz<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/light-it-up.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Light It UP<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Light It UP<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/photobooth.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Photo Booth<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Photo Booth<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/capture-bvest.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Capture BVEST<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Capture BVEST<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/milky.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Dumb-Charades<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Dumb-Charades<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light image-div">
+                    <img class="activator image" src="./Assets/puzzle.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Puzzle<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Puzzle<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="venue-section" class="footer">
+        <h1>
+            Venue
+        </h1>
+        <div class="venue">
+
+            <iframe width="100%" height="100%" class="map" id="mapcanvas"
+                src="https://maps.google.com/maps?q=new%20delhi&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                <div class="zxos8_gm"><a href="https://themesort.com/category/agency-themes">Agency templates at
+                        themesort</a></div>
+                <div style="overflow: hidden;">
+                    <div id="gmap_canvas" style="height: 100%; width: 100%;"></div>
+                </div>
+                <div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div>
+            </iframe>
+
+            <div class="venue-info">
+                <!-- <image src="./tech/images/location.svg" class="loc-svg" /> -->
+                <i class="fas fa-map-marker-alt fa-6x"></i>
+                <div class="venue-info-head">
+                    <h1>BVCOE</h1>
+                    <p class="details" style="font-size: 1.4rem;">A-4 Block, Baba Ramdev Marg, Shiva Enclave, Paschim
+                        Vihar, New Delhi, Delhi 110063</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div className="con">
+            <h1>
+                BVEST
+            </h1>
+            <a href="">
+
+                <div className="email">
+                    bvest@gmail.com
+                </div>
+
+            </a>
+
+            <div class="icons">
+                <i class="fa fa-facebook-square icon" style="font-size:36px; color:rgb(26, 98, 156)"></i>
+                <i class="fa fa-instagram icon" style="font-size:36px; color:rgb(189, 61, 82)"></i>
+                <i class="fa fa-github icon" style="font-size:36px"></i>
+
+                <a href="tel: 8076989248">
+                    <i class="fa fa-phone" style="font-size:36px; color:green"></i>
+                </a>
+
+            </div>
+
+            <div className="details">
+                <i class="fa fa-copyright" style="font-size:15px"></i>
+                Hack@Bvest , Bharati Vidyapeeth College of Engineering
+
+            </div>
+
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="headbar">
             <div class="sub-headbar">
                 <div class="logo headbar-item"><a href="#">BVEST</a></div>
                 <div class="links-div">
@@ -80,161 +336,7 @@ Performance by 3 societies (music dance and theatre)-->
         </div> -->
 
 
-
-        <div class="content-container">
-                <div class="card sticky-action">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/laser-room.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">Laser Room<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">Laser Room<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/ar-room.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">AR Room<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">AR Room<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div> 
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/milky.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">Guest-o-Vida<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">Guest-o-Vida<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div> 
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/milky.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">Milange<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">Milange<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div> 
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/touchmenot.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">Touch Me Not<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">Touch Me Not<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div> 
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/salesman.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">Salesman Of The Year<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">Salesman Of The Year<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div> 
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/ipr-quiz.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">IPR quiz<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">IPR quiz<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div> 
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/light-it-up.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">Light It UP<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">Light It UP<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light image-div">
-                        <img class="activator image" src="./Assets/photobooth.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator">Photo Booth<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">Photo Booth<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-                <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light image-div">
-                            <img class="activator image" src="./Assets/capture-bvest.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator">Capture BVEST<i class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title">Capture BVEST<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                </div>
-                <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light image-div">
-                            <img class="activator image" src="./Assets/milky.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator">Dumb-Charades<i class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title">Dumb-Charades<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                </div>
-                <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light image-div">
-                            <img class="activator image" src="./Assets/puzzle.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator">Puzzle<i class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title">Puzzle<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                </div>                
-        </div>
-
-
-
-
-
-
-
-        <!-- <div class="outer">
+<!-- <div class="outer">
             <div class="event">
                 <div class="aboutVideo">
                 </div>
@@ -462,53 +564,4 @@ Performance by 3 societies (music dance and theatre)-->
                 </div>
             </div>
         </div> -->
-        <!--Footer-->
-        <div class="footer">
-
-            <br> 
-            <p style="font-size: 4.5rem;">Venue</p>
-                          <div class="venue"> 
-                            <iframe width="100%" height="100%" class="map" id="mapcanvas" src="https://maps.google.com/maps?q=new%20delhi&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><div class="zxos8_gm"><a href="https://themesort.com/category/agency-themes">Agency templates at themesort</a></div><div style="overflow: hidden;"><div id="gmap_canvas" style="height: 100%; width: 100%;"></div></div><div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div></iframe>
-                            <div class="venue-info">
-                              <image src="../tech/images/location.svg" class="loc-svg"/>
-                              <div class="venue-info-head">
-                                <p style="margin-bottom: 3rem; font-size: 3rem; margin-right: 75%;">BVCOE</p>
-                                <p class="details" style="font-size: 1.4rem;">A-4 Block, Baba Ramdev Marg, Shiva Enclave, Paschim Vihar, New Delhi, Delhi 110063</p>
-                              </div>
-                            </div>
-                        </div>
-                <div className="con">
-                   <h1>
-                       BVEST
-                   </h1>
-                    <a href="">
-            
-                        <div className="email">
-                            bvest@gmail.com
-                        </div>
-            
-                        </a>
-            
-                        <div class="icons">
-                            <i class="fa fa-facebook-square icon" style="font-size:36px; color:rgb(26, 98, 156)"></i>
-                            <i class="fa fa-instagram icon" style="font-size:36px; color:rgb(189, 61, 82)"></i>
-                            <i class="fa fa-github icon" style="font-size:36px"></i>
-            
-                        <a href="tel: 8076989248">
-                            <i class="fa fa-phone" style="font-size:36px; color:green"></i>
-                          </a>
-            
-                        </div>
-            
-                        <div className="details">
-                            <i class="fa fa-copyright" style="font-size:15px"></i>
-                            Hack@Bvest , Bharati Vidyapeeth College of Engineering
-            
-                        </div>
-            
-            
-               
-                    </div>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    </body>
-</html>
+<!--Footer-->
