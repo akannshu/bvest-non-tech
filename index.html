@@ -15,17 +15,37 @@ Performance by 3 societies (music dance and theatre)-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
-    
+
     <!--Import Google Icon Font-->
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+
+    <!-- BootStrap JS -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
     
-    <!--Import materialize.css-->
+
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+
+    <!-- Custom CSS -->
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -72,10 +92,6 @@ Performance by 3 societies (music dance and theatre)-->
             Look Down for some amazing Non-Tech Events!
         </p>
 
-        <!-- <span id="down-arrow">
-                &#8595;
-            </span> -->
-
         <a href="#events"><i id="down-arrow" class="fas fa-arrow-circle-down fa-5x"></i></a>
 
 
@@ -89,35 +105,22 @@ Performance by 3 societies (music dance and theatre)-->
         </h1>
 
 
-        <div class="content-container">
-
+        <div id="cards-container" class="content-container">
             <div class="card sticky-action">
                 <div class="card-image waves-effect waves-block waves-light image-div">
                     <img class="activator image" src="./Assets/laser-room.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator">Laser Room<i class="material-icons right">more_vert</i></span>
+                    <span class="card-info card-title activator">Laser Room<i class="card-info material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title">Laser Room<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <span class="card-info card-title">Laser Room<i class="card-info material-icons right">close</i></span>
+                    <p class="card-info">Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
             </div>
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light image-div">
                     <img class="activator image" src="./Assets/ar-room.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator">AR Room<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title">AR Room<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light image-div">
-                    <img class="activator image" src="./Assets/milky.jpg">
                 </div>
                 <div class="card-content">
                     <span class="card-title activator">Guest-o-Vida<i class="material-icons right">more_vert</i></span>
@@ -126,10 +129,10 @@ Performance by 3 societies (music dance and theatre)-->
                     <span class="card-title">Guest-o-Vida<i class="material-icons right">close</i></span>
                     <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
-            </div>
+            </div> 
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light image-div">
-                    <img class="activator image" src="./Assets/milky.jpg">
+                    <img class="activator image" src="./Assets/touchmenot.jpg">
                 </div>
                 <div class="card-content">
                     <span class="card-title activator">Milange<i class="material-icons right">more_vert</i></span>
@@ -138,32 +141,20 @@ Performance by 3 societies (music dance and theatre)-->
                     <span class="card-title">Milange<i class="material-icons right">close</i></span>
                     <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light image-div">
-                    <img class="activator image" src="./Assets/touchmenot.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator">Touch Me Not<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title">Touch Me Not<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
+            </div> 
+            
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light image-div">
                     <img class="activator image" src="./Assets/salesman.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator">Salesman Of The Year<i
-                            class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator">Salesman Of The Year<i class="material-icons right">more_vert</i></span>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title">Salesman Of The Year<i class="material-icons right">close</i></span>
                     <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
-            </div>
+            </div> 
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light image-div">
                     <img class="activator image" src="./Assets/ipr-quiz.png">
@@ -175,7 +166,7 @@ Performance by 3 societies (music dance and theatre)-->
                     <span class="card-title">IPR quiz<i class="material-icons right">close</i></span>
                     <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
-            </div>
+            </div> 
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light image-div">
                     <img class="activator image" src="./Assets/light-it-up.jpg">
@@ -201,42 +192,31 @@ Performance by 3 societies (music dance and theatre)-->
                 </div>
             </div>
             <div class="card">
-                <div class="card-image waves-effect waves-block waves-light image-div">
-                    <img class="activator image" src="./Assets/capture-bvest.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator">Capture BVEST<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title">Capture BVEST<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
+                    <div class="card-image waves-effect waves-block waves-light image-div">
+                        <img class="activator image" src="./Assets/capture-bvest.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">Capture BVEST<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title">Capture BVEST<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
             </div>
+
             <div class="card">
-                <div class="card-image waves-effect waves-block waves-light image-div">
-                    <img class="activator image" src="./Assets/milky.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator">Dumb-Charades<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title">Dumb-Charades<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light image-div">
-                    <img class="activator image" src="./Assets/puzzle.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator">Puzzle<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title">Puzzle<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-        </div>
+                    <div class="card-image waves-effect waves-block waves-light image-div">
+                        <img class="activator image" src="./Assets/puzzle.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">Puzzle<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title">Puzzle<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+            </div>                
+    </div>
 
     </section>
 
@@ -300,268 +280,15 @@ Performance by 3 societies (music dance and theatre)-->
 
 
         </div>
+
+
+
+        <!-- Materialize JS -->
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="script.js"></script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="headbar">
-            <div class="sub-headbar">
-                <div class="logo headbar-item"><a href="#">BVEST</a></div>
-                <div class="links-div">
-                    <a href="#" class="link">Home</a>
-                    <a href="#" class="link">FAQ</a>
-                    <a href="#" class="link">Contact</a>
-                    <a href="#" class="link">Team</a>
-                </div>
-            </div>
-        </div> -->
-
-
-<!-- <div class="outer">
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                        <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">Laser Room</div>
-                            <div class="about">
-                                The laser room, a mission impossible style laser obstacle course with competitors fighting time (against others!), A course that tested the participant' agility and back bending skills!
-                            </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                            <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">AR Room</div>
-                            <div class="about">
-                                An AR based escape room. We’ll have minigames or puzzles related to a specific theme solving which will give us clues and we have to unlock the door using them.
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                            <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">Guest-o-Vida</div>
-                            <div class="about">
-                                Get ready to put all your brain, the entrepreneurial brain and skills in guessing the right approach to seize the battle and the day, with this Guesstimate cum Case Study Competition.
-                                </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="event">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                        <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">Milange</div>
-                            <div class="about">
-                                It is an event with 3 rounds as:<br  />
-                                Round 1 - Guesstimation<br  />
-                                Round 2 - Company based silent auction<br />
-                                Round 3 - Ideathon
-
-                                </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                            <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">Touch Me Not</div>
-                            <div class="about">
-                                The aim of this game is simple - to pass a loop through a wired path without touching the path.
-                            </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                            <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">Salesman Of The Year</div>
-                            <div class="about">
-                                “Salesman of the Year” is an advertisement creating
-                                competition wherein a team of 3- 4 students would
-                                have to sell a product provided to them on the spot.
-
-                                </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                            <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">IPR quiz</div>
-                            <div class="about">
-                                Intellectual Property Quiz will be an intellectually
-                                stimulating and fast paced competition held over four
-                                rounds.
-
-                            </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                            <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">Light It UP</div>
-                            <div class="about">
-                                    In a dark room, play with light and long exposure to make beautiful shots.
-                                </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                            <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">Photo Booth</div>
-                            <div class="about">
-                                Photographing the most important part of your life, Old School photobooth with hard copy of the Images.
-
-                            </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="event">
-                <div class="aboutVideo">
-                </div>
-                <div class="row">
-                    <div class="col-md-5 eventVideo">
-                            <img src="./Assets/milky.jpg" class="eventimg">
-                    </div>
-                    <div class="col-md-7 eventAbout">
-                        <div class="aboutText">
-                            <div class="aboutHead">Capture BVEST</div>
-                            <div class="about">
-                                It will be a filmmaking competition and the best filmmakers will get rewarded based on how good one captures BVEST.
-                                </div>
-                        </div>
-                        <div class="btn btn-outline-secondary registerButton">
-                            Register
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-<!--Footer-->
