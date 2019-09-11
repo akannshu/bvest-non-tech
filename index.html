@@ -50,16 +50,16 @@ Performance by 3 societies (music dance and theatre)-->
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: black;">
+<body style="background-color: black;overflow-x: hidden">
     <!--Header-->
-
+<!-- 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar" style="background: black">
-            <a class="navbar-brand" href="index.html"><span id="BrandIcon"></span><span id="brand">BVEST</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <a class="navbar-brand" href="index.html"><span id="BrandIcon"></span><span id="brand">BVEST</span></a> -->
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-
+            </button> -->
+<!-- 
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <div class="dropdown">     <ul class="navbar-nav">
                     <li class="nav-item active">
@@ -76,14 +76,56 @@ Performance by 3 societies (music dance and theatre)-->
                     </li>
                 </ul>
             </div>
-            </div>
+            </div> -->
         </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: black">
+                <a class="navbar-brand navbar-b" href="#">BVEST</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto" style="background: black">
+                    <!-- <li class="nav-item active">
+                      <a class="nav-link nav-item-a"  href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-item-a"  href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-item-a"  href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-item-a"  href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                    <li class="nav-item active ">
+                            <a class="nav-link nav-item-a" href="#Home"><span class="links">Home</span><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-item-a" href="#events"><span class="links">Events</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-item-a" href="#venue-section"><span class="links">Venue</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-item-a" href="#"><span class="links" id="nav-resume-text">Team</a>
+                        </li>
+                  </ul>
+                </div>
+              </nav>
+
+
         <div>
-          <video src="./Assets/back.mp4" autoplay muted loop id="myVideo"></video>
+          <video src="./Assets/back.mp4" autoplay muted loop class="myVideo"></video>
+          <img src="./Assets/cover.png" class="mypicture" alt="">
           </div>
 
+    <!-- <div class="cover-phone">
+        <!-- <img src="cover.png" alt=""> 
+    </div> -->
 
-    <section id=cover>
+
+
+    <section class=cover>
 
         <h1>
             Welcome To
